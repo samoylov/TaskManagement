@@ -1,4 +1,4 @@
-package taskman.controller;
+package tama.controller;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
