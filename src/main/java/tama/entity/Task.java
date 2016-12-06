@@ -46,13 +46,13 @@ public class Task {
     @OneToMany
     private List<User> assignee;
 
-    public Task() {
-    }
-
-    public Task(int id, String name, String description) {
+    public Task(String name) {
         this.id = id;
         this.name = name;
         this.description = description;
+    }
+
+    public Task() {
     }
 
     public int getId() {
